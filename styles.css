@@ -70,6 +70,10 @@ a {
 
 
 /* ===== Grid layout (Role A) ===== */
+.site-header { grid-area: header; }
+.site-nav    { grid-area: nav; }
+.site-main   { grid-area: main; }
+.site-footer { grid-area: footer; }
 
 
 
