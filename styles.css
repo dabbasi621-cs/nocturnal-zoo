@@ -1,3 +1,4 @@
+
 /* ===== Basics (shared by everyone) ===== */
 
 :root {
@@ -69,7 +70,6 @@ a {
 }
 
 
-/* ===== Grid layout (Role A) ===== */
 .site-header { grid-area: header; }
 .site-nav    { grid-area: nav; }
 .site-main   { grid-area: main; }
@@ -95,8 +95,6 @@ a {
 }
 
 
-
-/* ===== Navigation menu (Role B) ===== */
 .site-nav ul {
     display: none;
 }
@@ -116,9 +114,11 @@ a {
 }
 
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1b1b2f;
+        --fg: #e8e8f0;
+        --accent: #f5c542;
+    }
+}
 
-/* ===== Dark mode (Role C) ===== */
-
-
-
-/* ===== Animal cards (Role D, teams of four) ===== */
