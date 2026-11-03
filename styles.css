@@ -84,6 +84,17 @@ a {
         "footer";
 }
 
+@media (min-width: 40rem) {
+    .page {
+        grid-template-columns: 12rem 1fr;
+        grid-template-areas:
+            "header header"
+            "nav    main"
+            "footer footer";
+    }
+}
+
+
 
 /* ===== Navigation menu (Role B) ===== */
 
