@@ -75,6 +75,14 @@ a {
 .site-main   { grid-area: main; }
 .site-footer { grid-area: footer; }
 
+.page {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer";
+}
 
 
 /* ===== Navigation menu (Role B) ===== */
